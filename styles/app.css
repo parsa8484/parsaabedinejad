@@ -1,10 +1,55 @@
+
+@font-face {
+    font-family: "TTnorms";
+    src: url("../fonts/TTNorms-Regular.otf");
+}
+@font-face {
+    font-family: "TTnorms Medium";
+    src: url("../fonts/TTNorms-Medium.otf");
+}
+@font-face {
+    font-family: "TTnorms Light";
+    src: url("../fonts/TTNorms-Light.otf");
+}
+@font-face {
+    font-family: "Times Roman Italic";
+    src: url("../fonts/Times-new-roman-italic.ttf");
+}
+
+
+html {
+    box-sizing: border-box;
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+
+body{
+    font-family: TTnorms;
+}
 .conteiner{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    background-color: blanchedalmond;
-    width: 50rem;
-    height: 50rem;
-    flex-direction: column;
+max-width: 80rem;
+margin-left:auto ;
+margin-right: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+@media screen and (max-width:1200px) {
+    .conteiner{
+        max-width: 960px;
+    }
+}
+@media screen and (max-width:992px) {
+    .conteiner{
+        max-width: 720px;
+    }
+}
+@media screen and (max-width:768px) {
+    .conteiner{
+        max-width: 540px;
+    }
+}
+@media screen and (max-width:576px) {
+    .conteiner{
+        max-width: 100%;
+    }
 }
