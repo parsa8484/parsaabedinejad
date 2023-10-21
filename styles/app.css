@@ -1,0 +1,10 @@
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    width: 50rem;
+    height: 50rem;
+    flex-direction: column;
+}
