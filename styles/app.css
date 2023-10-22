@@ -137,3 +137,49 @@ margin-right: 0.8rem;
 .header-content__img{
 width: 100%;
 }
+.main{
+padding: 5rem 0;
+}
+.conteiner{
+}
+.work{
+text-align: center;
+}
+.works__text{
+    color: #6C7890;
+    margin-bottom: 0;
+}
+.works__tittle{
+    color: #081D43;
+ margin-top: 0.8rem;
+}
+.works-content{
+margin-top: 3rem;
+display: flex;
+justify-content: space-around;
+margin-bottom: 3rem;
+}
+.works-content__item{
+
+}
+.works-content__tittle{
+color: #081D43;
+}
+.works-content__text{
+color: #6C7890;
+line-height: 2rem;
+max-width: 16rem;
+}
+.works-img{
+    max-width: 31rem;
+margin: 0 auto;
+}
+.works-img__img{
+    width: 100%;
+}
+
+
+
+
+
+
