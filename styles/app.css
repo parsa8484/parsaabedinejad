@@ -262,4 +262,58 @@ margin-top: 5rem;
 .portfolio__img{
     width: 100%;
 }
+.footer{
 
+}
+.newsletter{
+background-color: #2C57E4;
+padding: 4rem 0;
+color: #fff;
+}
+.newsletter__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+                          
+.container{
+
+}
+.newsletter__text{
+font-size: 1.6rem;
+}
+.newsletter__email{
+background: #fff;
+flex-basis: 18rem;
+display: flex;
+justify-content: space-between;
+padding: 0.4rem 0.4rem 0.4rem 1.5rem;
+border-radius: 0.5rem;
+align-items: center;
+}
+.newsletter__emailtxt{
+border: none;
+outline: none;
+}
+.btn{
+background: #2F5BEA;
+border: none;
+outline: none;
+padding: 1rem 1.5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 0.5rem;
+}
+.copy-right__wrapper{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.copy-right{
+color: #6C7890;
+padding: 1rem 0;
+}
+.copy-right__text{
+
+}
