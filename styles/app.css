@@ -93,7 +93,7 @@ padding: 0.8rem 1.5rem;
 border-radius: 0.5rem;
 }
 .header-bottom{
-margin-top: 6rem;
+margin-top: 5.5rem;
 }
 .row{
  display: flex;   
@@ -137,7 +137,7 @@ margin-right: 0.8rem;
 width: 100%;
 }
 .main{
-padding: 5rem 0;
+padding: 6rem 0;
 }
 .conteiner{
 }
@@ -151,6 +151,8 @@ text-align: center;
 .works__tittle{
     color: #081D43;
  margin-top: 0.8rem;
+ font-family: "TTnorms Medium";
+ font-weight: normal ;
 }
 .works-content{
 margin-top: 3rem;
@@ -176,9 +178,53 @@ margin: 0 auto;
 .works-img__img{
     width: 100%;
 }
+.person-comments{
+    background-color: #2F5BEA;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
 
-
-
+}
+.person-comments__tittle{
+font-family: TTnorms Medium;
+font-weight: normal;
+}
+.person-comments__text{  
+font-family: TTnorms Light;
+}
+.comments{
+ margin: 3rem 0;
+ display: flex;
+}
+.comment{
+background:#fff;
+margin: 1rem;
+border-radius: 0.5rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 16rem;
+}
+.comment__content{
+text-align: left;
+padding: 1.2rem;
+}
+.comment__body{
+font-family: Times Roman Italic;
+color: #7E8085;
+line-height: 1.5rem;
+margin: 0;
+}
+.comment__info{
+display: flex;
+border-top: 1px solid #E8EBEF;
+padding: 0.8rem 1.2rem;
+align-items: center;
+}
+.comment__person{
+color: black;
+margin: 0 0 0 0.5rem;
+}
 
 
 
