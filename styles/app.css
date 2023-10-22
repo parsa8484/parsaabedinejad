@@ -144,11 +144,11 @@ padding: 6rem 0;
 .work{
 text-align: center;
 }
-.works__text{
+.works__text,.portfolio__text{
     color: #6C7890;
     margin-bottom: 0;
 }
-.works__tittle{
+.works__tittle,.portfolio__tittle{
     color: #081D43;
  margin-top: 0.8rem;
  font-family: "TTnorms Medium";
@@ -192,8 +192,12 @@ font-weight: normal;
 .person-comments__text{  
 font-family: TTnorms Light;
 }
+.comment-conteiner{
+    max-width: 65rem;
+    margin: 3.5rem auto 0 auto;
+}
 .comments{
- margin: 3rem 0;
+justify-content: space-between;
  display: flex;
 }
 .comment{
@@ -203,7 +207,8 @@ border-radius: 0.5rem;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-height: 16rem;
+min-height: 18rem;
+flex-basis: 20rem;
 }
 .comment__content{
 text-align: left;
@@ -225,6 +230,36 @@ align-items: center;
 color: black;
 margin: 0 0 0 0.5rem;
 }
-
-
+.companies{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 5rem;
+}
+.companies__img{
+    display: block;
+    margin: 1rem;
+}
+.portfolio{
+    text-align: center;
+    padding: 2rem 0;
+}
+.container{
+    
+}
+.portfolio-items{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+.portfolio__item{
+    flex-basis: 26rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.portfolio__img{
+    width: 100%;
+}
 
