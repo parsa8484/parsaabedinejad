@@ -42,22 +42,19 @@ padding-right: 1rem;
     .conteiner{
         max-width: 720px;
     }
-    .header__link{
-        display: none;
-    }
     .fa-bars{
         display: block !important; 
     }
     .span-fa{
         display: none !important; 
     }
+    .menu{
+        display: none !important;
+    }
 }
 @media screen and (max-width:768px) {
     .conteiner{
         max-width: 540px;
-    }
-    .menu{
-        display: none;
     }
 }
 @media screen and (max-width:576px) {
