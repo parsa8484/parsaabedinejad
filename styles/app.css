@@ -50,8 +50,11 @@ padding-right: 1rem;
     .conteiner{
         max-width: 540px;
     }
-    .header__icon{
+    .fa-bars{
         display: block;
+    }
+    .span-fa{
+        display: none;
     }
     .menu{
         display: none;
@@ -101,10 +104,13 @@ text-decoration: none;
 padding: 0.8rem 1.5rem;
 border-radius: 0.3rem;
 }
-.header__icon{
+.fa-bars{
     font-size: 1.8rem;
     display: none;
     cursor: pointer;
+}
+.span-fa{
+    
 }
 .header-bottom{
 margin-top: 5.5rem;
