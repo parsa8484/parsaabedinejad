@@ -42,10 +42,19 @@ padding-right: 1rem;
     .conteiner{
         max-width: 720px;
     }
+    .header__link{
+        display: none;
+    }
 }
 @media screen and (max-width:768px) {
     .conteiner{
         max-width: 540px;
+    }
+    .header__icon{
+        display: block;
+    }
+    .menu{
+        display: none;
     }
 }
 @media screen and (max-width:576px) {
@@ -91,6 +100,11 @@ color: #fff;
 text-decoration: none;
 padding: 0.8rem 1.5rem;
 border-radius: 0.3rem;
+}
+.header__icon{
+    font-size: 1.8rem;
+    display: none;
+    cursor: pointer;
 }
 .header-bottom{
 margin-top: 5.5rem;
