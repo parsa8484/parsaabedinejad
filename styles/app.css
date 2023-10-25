@@ -49,8 +49,22 @@ padding-right: 1rem;
         display: none !important; 
     }
     .menu{
-        display: none !important;
-    }
+        /* display: none !important; */
+position: fixed;
+top: 0;
+left: -272px;
+bottom: 0;
+background-color: #0050CB;
+ width: 16rem;
+ flex-direction: column;
+ padding: 2rem 1rem;
+ transition: 0.3s all;
+}
+.menu__item{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
 }
 @media screen and (max-width:768px) {
     .conteiner{
