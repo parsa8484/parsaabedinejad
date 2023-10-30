@@ -394,6 +394,7 @@ align-items: center;
 .newsletter__emailtxt{
 border: none;
 outline: none;
+width: 100%;
 }
 .btn{
 background: #2F5BEA;
