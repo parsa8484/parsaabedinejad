@@ -54,7 +54,7 @@ position: fixed;
 top: 0;
 left: -272px;
 bottom: 0;
-background-color: #0050CB;
+background-color: #3F70E1;
  width: 16rem;
  flex-direction: column;
  padding: 2rem 1rem;
@@ -64,17 +64,75 @@ background-color: #0050CB;
     margin-bottom: 2rem;
     font-size: 1.2rem;
 }
+.menu__link{
+    color: #fff !important;
+}
+.row{
+    flex-direction: column-reverse;
+}
+.header-bottom{
+    margin-top: 3rem;
+}
+.header-content__wrapper{
+    max-width: 100% !important;
+}
+.header-content-right{
+    margin-bottom: 2rem;
+}
+.header-content__links{
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.header-content__link{
+    margin-bottom: 1rem;
+}
+.works-content__item{
+    flex-basis: 16rem;
+    margin-bottom: 1.5rem;
+    }
+    .comments{
+        flex-wrap: wrap;
+    }
+    .comment{
+        flex-basis: 19rem;
+    }
+    .companies{
+        justify-content: center !important;
+        margin-top: 2.5rem !important;
+    }
+    .newsletter__text{
+        max-width: 20rem !important;
+    }
 
 }
 @media screen and (max-width:768px) {
     .conteiner{
         max-width: 540px;
     }
+    .comment{
+        flex-basis: 15rem !important ;
+        margin: 0 0 1.5rem 0 !important;
+    }
+    .newsletter__wrapper{
+        flex-direction: column !important; 
+    }
+    .newsletter__email{
+        flex-basis: auto !important;
+        width: 80%;
+    }
+    .newsletter__text{
+        width: 80%;
+        margin-bottom: 2rem !important;
+    }
+ 
 }
 @media screen and (max-width:576px) {
     .conteiner{
         max-width: 100%;
     }
+.comment{
+    flex-basis: 100%;
+}
 }
 .header{
 }
@@ -193,9 +251,11 @@ margin-top: 3rem;
 display: flex;
 justify-content: space-around;
 margin-bottom: 3rem;
+flex-wrap: wrap;
 }
 .works-content__item{
-
+flex-basis: 16rem;
+flex-shrink: 0;
 }
 .works-content__tittle{
 color: #081D43;
@@ -271,6 +331,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 margin-top: 5rem;
+flex-wrap: wrap;
 }
 .companies__img{
     display: block;
@@ -348,6 +409,7 @@ border-radius: 0.3rem;
 display: flex;
 justify-content: space-between;
 align-items: center;
+flex-wrap: wrap;
 }
 .copy-right{
 color: #6C7890;
